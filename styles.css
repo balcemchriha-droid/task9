@@ -72,7 +72,12 @@ ul{
 li a{
     color: white;
 }
-.footer{
+footer{
+    background-color: #263238;
+    color: white;
+    width: 100%;
+}
+.container footer{
     margin: 10px;
     background-color: #263238;
     display: flex;
