@@ -1,0 +1,125 @@
+.left{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px;
+}
+.right{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+p{
+    font-family: 'Inter', sans-serif;
+    color: #717171;
+}
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+    margin: 10px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F5f7fa;
+    width: 100%;
+    flex-direction: row;
+}
+ a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    margin: 0 10px;
+    gap: 20px;
+}
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F5f7fa;
+    padding: 50px 0;
+    height: 100vh;
+    width: 100%;
+    flex-direction: column;
+}
+button{
+    background-color: #4caf4F;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+span{
+    color: #4caf4F;
+}
+ul{
+    list-style: none;
+    padding: 0;
+    color: white;
+}
+li a{
+    color: white;
+}
+.footer{
+    margin: 10px;
+    background-color: #263238;
+    display: flex;
+    padding: 60px 100px;
+    gap: 30px;
+    flex-direction: row;
+    color: white;
+    width: 100%;
+}
+
+.buttons, .customers, .achievements, .community{
+    background-color:#F5f7fa;
+}
+textarea {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    width: 100%;
+}
+.hero .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    gap: 50px;
+}
+.illustration{
+    max-width: 100%;
+    height: auto;
+}
+.footer img{
+    color: white;
+}
+.dot-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+}
+.dota{
+    font-size: 124px;
+    color: #4caf4F;
+    border-radius: 2px;
+}
+.dotb{
+    font-size: 124px;
+    color: #A5D6A7;
+    border-radius: 2px;
+}
